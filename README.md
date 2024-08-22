@@ -1,4 +1,4 @@
-# 概要説明
-- こちらのテンプレート（https://themeforest.net/item/scribblerai-ai-content-generator-dashboard-and-user-app-react-template/50114420）を購入
-- 全体のプレビューはこちら（https://preview.themeforest.net/item/scribblerai-ai-content-generator-dashboard-and-user-app-react-template/full_screen_preview/50114420?_ga=2.259578378.1271642271.1724227289-1521202814.1703255625）で確認できます。
-- Chat機能にフォーカルしたプレビューはこちら（https://preview.themeforest.net/item/scribblerai-ai-content-generator-dashboard-and-user-app-react-template/full_screen_preview/50114420?_ga=2.259578378.1271642271.1724227289-1521202814.1703255625）で確認できます。
+# Overview
+- This template (https://themeforest.net/item/scribblerai-ai-content-generator-dashboard-and-user-app-react-template/50114420) was purchased.
+- You can check the overall preview here (https://preview.themeforest.net/item/scribblerai-ai-content-generator-dashboard-and-user-app-react-template/full_screen_preview/50114420?_ga=2.259578378.1271642271.1724227289-1521202814.1703255625).
+- You can check the preview focused on the Chat feature here (https://preview.themeforest.net/item/scribblerai-ai-content-generator-dashboard-and-user-app-react-template/full_screen_preview/50114420?_ga=2.259578378.1271642271.1724227289-1521202814.1703255625).
