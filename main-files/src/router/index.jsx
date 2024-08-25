@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ThemeProvider from "../layout/provider";
 import WebsiteIntro from "../pages/Website/Home";
@@ -53,12 +53,12 @@ import SocialNetworksSettings from "../pages/Admin/Settings/SocialNetworks";
 import { useLocation } from "react-router";
 
 const ScrollToTop = (props) => {
-  const location = useLocation();
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [location]);
+    const location = useLocation();
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [location]);
 
-  return <>{props.children}</>
+    return <>{props.children}</>
 };
 
 function Router() {
@@ -67,17 +67,17 @@ function Router() {
             <ScrollToTop>
                 <Routes>
                     <Route element={<ThemeProvider />}>
-                            <Route index element={<WebsiteIntro />} />
-                            <Route path="landing-text-image" element={<ImageGenLandingPage />} />
-                            <Route path="landing-text-code" element={<CodeGenPage />} />
-                            <Route path="landing-prompt-text" element={<TextGenPage />} />
-                            <Route path="pricing" element={<PricingPage />} />
-                            <Route path="about" element={<AboutPage />} />
-                            <Route path="login" element={<LoginPage />} />
-                            <Route path="two-step" element={<TwoStepPage />} />
-                            <Route path="create-account" element={<CreateAccountPage />} />
-                            <Route path="*" element={<NotFoundPage />} />
-                        
+                        <Route index element={<WebsiteIntro />} />
+                        <Route path="landing-text-image" element={<ImageGenLandingPage />} />
+                        <Route path="landing-text-code" element={<CodeGenPage />} />
+                        <Route path="landing-prompt-text" element={<TextGenPage />} />
+                        <Route path="pricing" element={<PricingPage />} />
+                        <Route path="about" element={<AboutPage />} />
+                        <Route path="login" element={<LoginPage />} />
+                        <Route path="two-step" element={<TwoStepPage />} />
+                        <Route path="create-account" element={<CreateAccountPage />} />
+                        <Route path="*" element={<NotFoundPage />} />
+
                         <Route path="app">
                             <Route index element={<AppDashboard />} />
                             <Route path="documents">

@@ -138,22 +138,6 @@ function ChatBotS2() {
                                         })}
                                     </ul>
                                 </SimpleBar>
-                                <div className="p-4 sm:p-7">
-                                    <Link to="/app/packages" className="flex justify-between p-4 rounded-lg border border-slate-200 dark:border-slate-800 hover:border-blue-200 hover:dark:border-blue-950 transition-all">
-                                        <div className="">
-                                            <span className="text-[11px] font-medium text-blue-500 bg-gradient-to-r from-blue-100 dark:from-blue-950 to-pink-100 dark:to-pink-950 px-2 py-1 rounded">
-                                                Upgrade
-                                            </span>
-                                            <h3 className="mt-2 font-bold text-sm text-slate-600 dark:text-slate-100">Scribbler Pro</h3>
-                                        </div>
-                                        <div className="text-end">
-                                            <del className="font-medium text-xs text-slate-400 dark:text-slate-300">$24.88</del>
-                                            <div className="font-bold text-lg bg-gradient-to-r from-blue-600 to-pink-500 text-transparent bg-clip-text ">
-                                                $19.88
-                                            </div>
-                                        </div>
-                                    </Link>
-                                </div>
                             </div>
                         </div>
                         <div className="w-full xl:w-[calc(100%-theme(space.8)-360px)] max-xl:h-[calc(100vh-theme(space.40)-theme(space.2))] relative">
